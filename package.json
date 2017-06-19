@@ -1,18 +1,17 @@
 {
-  "name": "spa-github-pages",
+  "name": "vmariot-github-io",
   "version": "5.0.0",
   "private": true,
-  "description": "Single Page Apps for GitHub Pages",
+  "description": "My website",
   "scripts": {
     "start": "webpack-dev-server --devtool eval-source-map --history-api-fallback --open",
     "build": "webpack -p"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafrex/spa-github-pages.git"
+    "url": "git+https://github.com/vmariot/vmariot.github.io.git"
   },
-  "author": "Rafael Pedicini <code@rafrex.com>",
-  "license": "MIT",
+  "author": "Victor MARIOT <vmariot@student.42.fr>",
   "dependencies": {
     "prop-types": "^15.5.8",
     "react": "^15.5.4",

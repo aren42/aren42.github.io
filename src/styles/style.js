@@ -37,36 +37,3 @@ export default {
     lineHeight: '1.4',
   },
 };
-
-export const Code = ({ children }) => (
-  <code
-    style={{
-      fontFamily: 'monospace',
-      fontSize: '15px',
-      paddingLeft: '2px',
-    }}
-  >{children}</code>
-);
-
-Code.propTypes = {
-  children: PropTypes.string.isRequired,
-};
-
-export const Li = ({ children, ...rest }) => (
-  <li
-    style={{
-      paddingLeft: '18px',
-      textIndent: '-15px',
-      margin: '0.5vh 0',
-      listStyle: 'none',
-    }}
-    {...rest}
-  >
-    <span style={{ paddingRight: '7px' }}>&ndash;</span>
-    {children}
-  </li>
-);
-
-Li.propTypes = {
-  children: PropTypes.string.isRequired,
-};
