@@ -2,7 +2,7 @@ import React from 'react';
 import Interactive from 'react-interactive';
 import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
-import Navbar from './Header';
+import Header from './Header';
 import PageNotFound from './PageNotFound';
 import s from '../styles/app.style';
 
@@ -21,7 +21,7 @@ export default function App() {
       <footer style={s.creditLine}>
         <Interactive
           as="a"
-          href="http://www.rafaelpedicini.com"
+          href="http://www.github.com/vmariot"
           interactiveChild
           focus={{}}
           touchActive={{}}
