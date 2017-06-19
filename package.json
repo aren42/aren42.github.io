@@ -1,5 +1,5 @@
 {
-  "name": "vmariot-github-io",
+  "name": "aren-github-io",
   "version": "1.0.0",
   "private": true,
   "description": "My website",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vmariot/vmariot.github.io.git"
+    "url": "git+https://github.com/aren42/aren42.github.io.git"
   },
-  "author": "Victor MARIOT <vmariot@student.42.fr>",
+  "author": "Amelie REN <aren@student.42.fr>",
   "dependencies": {
     "prop-types": "^15.5.8",
     "react": "^15.5.4",
